@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="H$eH/qQ1k4%FK8^LplH$">index</variable></variables><block type="device_forever" id=":2aFt3T,.ngu-)d|}eyU" x="0" y="-201"><statement name="HANDLER"><block type="basic_show_arrow" id="e![pHY%3Cv)22*)NR!~r"><value name="i"><shadow type="device_arrow"><field name="arrow">ArrowNames.North</field></shadow><block type="math_op3" id="b[kmjvQ*%Wgudlm!1td@"><value name="x"><shadow type="math_number" id="$=mJv{X%=@U1]y,s21*/"><field name="NUM">0</field></shadow></value></block></value></block></statement></block><block type="device_forever" id="f9X![#q6xZ3b#8xTWqP?" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="UObE,T]A}qG$EhCl.6%,"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_forever" id="lg)NaGo)SC`UQP]Dp(3G" x="306" y="20"><statement name="HANDLER"><block type="radio_set_transmit_serial_number" id="NhKr%)i:sYoSss/vI__x"><value name="transmit"><shadow type="logic_boolean" id=")6Vvy)MsMWGzv;Dz20.D"><field name="BOOL">FALSE</field></shadow></value><next><block type="radio_datagram_send" id="Zc?ktmk(VdCcdC^kWm,G"><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="j.Wg)=42,s~ga%3wXa3w"><field name="name">AnalogPin.P5</field></block></value></block></next></block></statement></block></xml>
